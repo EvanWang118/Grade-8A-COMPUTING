@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.id-card {
+    width: 350px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    border: 2px solid #3a7ca5;
+}
+
+.header {
+    text-align: center;
+    color: #ffffff;
+    background: #3a7ca5;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.profile-section {
+    display: flex;
+    gap: 15px;
+}
+
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #3a7ca5;
+}
+
+.info p {
+    margin: 6px 0;
+    font-size: 15px;
+}
